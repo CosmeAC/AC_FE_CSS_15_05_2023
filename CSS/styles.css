@@ -1,0 +1,71 @@
+body{
+    background-image: url('../img/ac.jpg');
+}
+div{
+    border: black solid 2px;
+    height: 200px;
+    width: 200px;  
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: white;
+}
+#divA{
+    background-image: url(../img/back_mantel.jpg);
+}
+#divB{
+    background-image: url(../img/back_mantel.jpg);
+    background-position: center; 
+    background-repeat: repeat;
+    background-clip: content-box;
+    width: 160px;
+    height: 160px;
+    padding: 20px;
+} 
+#divC{
+    background-image:url(../img/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#divD{
+    background-image:url(../img/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+#divE{
+    background-image: url(../img/dh.jpg);
+    background-size: 200px ;
+}
+#divF{
+    background-image: url(../img/dh.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#divG{
+    background-image: url(../img/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#divH{
+    background-image: url(../img/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#divI{
+    background: -webkit-linear-gradient(left,rgb(134, 190, 66), rgb(6, 69, 38));
+}
+#divJ{
+    background: -webkit-linear-gradient(top,rgb(207, 128, 79), rgb(169, 71, 10)rgb(207, 128,79));
+    /* background: linear-gradient(red pink); */
+}
+#divK{
+    background: -webkit-linear-gradient(top,rgb(191, 217, 192), rgb(64, 147, 74));
+}
+#divL{
+    background: -webkit-linear-gradient(top,rgba(191, 217, 192, 0), rgb(64, 147, 74));
+}
